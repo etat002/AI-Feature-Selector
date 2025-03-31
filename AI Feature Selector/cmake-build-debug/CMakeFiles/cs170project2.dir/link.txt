@@ -1,0 +1,3 @@
+"W:\CS\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cs170project2.dir/objects.a
+C:\mingw32\bin\ar.exe cr CMakeFiles\cs170project2.dir/objects.a @CMakeFiles\cs170project2.dir\objects1.rsp
+C:\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\cs170project2.dir/objects.a -Wl,--no-whole-archive  -o cs170project2.exe -Wl,--out-implib,libcs170project2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cs170project2.dir\linklibs.rsp
